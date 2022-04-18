@@ -26,6 +26,7 @@ piaoChai = vmess, piao.tfbs.site, 54233, username=05226a0b-13c1-4bce-9c54-a7e741
 🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,piao富贵儿-香港,piao富贵儿-洛杉矶,piao富贵儿-新加坡,piaoChai
 
 [Rule]
+IP-CIDR,192.168.0.0/16,DIRECT
 DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
 DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
