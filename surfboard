@@ -9,20 +9,21 @@ DIRCET = direct
 
 piao富贵儿-香港 = vmess, 34.96.229.75, 42746, username=1b8df0fb-1063-4dfa-b3be-6a809be28c43, ws=false, tls=false, ws-path=/, skip-cert-verify=false, udp-relay=false, vmess-aead=true
 piao富贵儿-洛杉矶 = trojan, piaorichla.610425.xyz, 443, password=glKGtEel, skip-cert-verify=false, udp-relay=false
-piao富贵儿-新加坡 = trojan, piaorichsg.610425.xyz, 443, password=wQPjaQwS, skip-cert-verify=false, udp-relay=false
+piao富贵儿-新加坡01 = trojan, piaorichsg.610425.xyz, 443, password=wQPjaQwS, skip-cert-verify=false, udp-relay=false
+piao富贵儿-新加坡02 = trojan, piaorichgcpsg.610425.xyz, 443, password=yNHKetZk, skip-cert-verify=false, udp-relay=false
 
 [Proxy Group]
-🚀 节点选择 = select,♻️ 自动选择,DIRECT,piao富贵儿-香港,piao富贵儿-洛杉矶,piao富贵儿-新加坡
-♻️ 自动选择 = url-test,piao富贵儿-香港,piao富贵儿-洛杉矶,piao富贵儿-新加坡,url=http://www.gstatic.com/generate_204,interval=300,timeout=50
-🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,piao富贵儿-香港,piao富贵儿-洛杉矶,piao富贵儿-新加坡
-📲 电报信息 = select,🚀 节点选择,🎯 全球直连,piao富贵儿-香港,piao富贵儿-洛杉矶,piao富贵儿-新加坡
-Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,piao富贵儿-香港,piao富贵儿-洛杉矶,piao富贵儿-新加坡
-🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,piao富贵儿-香港,piao富贵儿-洛杉矶,piao富贵儿-新加坡
-📢 谷歌FCM = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,piao富贵儿-香港,piao富贵儿-洛杉矶,piao富贵儿-新加坡
+🚀 节点选择 = select,♻️ 自动选择,DIRECT,piao富贵儿-香港,piao富贵儿-洛杉矶,piao富贵儿-新加坡01,piao富贵儿-新加坡02
+♻️ 自动选择 = url-test,piao富贵儿-香港,piao富贵儿-洛杉矶,piao富贵儿-新加坡01,piao富贵儿-新加坡02,url=http://www.gstatic.com/generate_204,interval=300,timeout=50
+🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,piao富贵儿-香港,piao富贵儿-洛杉矶,piao富贵儿-新加坡01,piao富贵儿-新加坡02
+📲 电报信息 = select,🚀 节点选择,🎯 全球直连,piao富贵儿-香港,piao富贵儿-洛杉矶,piao富贵儿-新加坡01,piao富贵儿-新加坡02
+Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,piao富贵儿-香港,piao富贵儿-洛杉矶,piao富贵儿-新加坡01,piao富贵儿-新加坡02
+🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,piao富贵儿-香港,piao富贵儿-洛杉矶,piao富贵儿-新加坡01,piao富贵儿-新加坡02
+📢 谷歌FCM = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,piao富贵儿-香港,piao富贵儿-洛杉矶,piao富贵儿-新加坡01,piao富贵儿-新加坡02
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
 🛑 全球拦截 = select,REJECT,DIRECT
 🍃 应用净化 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,piao富贵儿-香港,piao富贵儿-洛杉矶,piao富贵儿-新加坡
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,piao富贵儿-香港,piao富贵儿-洛杉矶,piao富贵儿-新加坡01,piao富贵儿-新加坡02
 
 [Rule]
 DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
