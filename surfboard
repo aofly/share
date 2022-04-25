@@ -14,7 +14,7 @@ piao富贵儿-新加坡02 = trojan, piaorichgcpsg.610425.xyz, 443, password=yNHK
 
 [Proxy Group]
 🚀 节点选择 = select,♻️ 自动选择,DIRECT,piao富贵儿-香港,piao富贵儿-洛杉矶,piao富贵儿-新加坡01,piao富贵儿-新加坡02
-♻️ 自动选择 = url-test,piao富贵儿-香港,piao富贵儿-洛杉矶,piao富贵儿-新加坡01,piao富贵儿-新加坡02,url=http://www.gstatic.com/generate_204,interval=300,timeout=50
+♻️ 自动选择 = url-test,DIRECT,piao富贵儿-香港,piao富贵儿-洛杉矶,piao富贵儿-新加坡01,piao富贵儿-新加坡02,url=http://www.gstatic.com/generate_204,interval=300,timeout=50
 🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,piao富贵儿-香港,piao富贵儿-洛杉矶,piao富贵儿-新加坡01,piao富贵儿-新加坡02
 📲 电报信息 = select,🚀 节点选择,🎯 全球直连,piao富贵儿-香港,piao富贵儿-洛杉矶,piao富贵儿-新加坡01,piao富贵儿-新加坡02
 Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,piao富贵儿-香港,piao富贵儿-洛杉矶,piao富贵儿-新加坡01,piao富贵儿-新加坡02
